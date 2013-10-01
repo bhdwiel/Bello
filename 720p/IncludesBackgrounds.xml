@@ -24,7 +24,8 @@
 		<control type="image">
 			<description>Default Background Image</description>
 			<include>FullscreenDimensions</include>
-			<texture background="true">special://skin/backgrounds/SKINDEFAULT.jpg</texture>
+			<texture background="true">special://skin/backgrounds/SKINDEFAULT-blue.jpg</texture>
+			<!-- <texture background="true">special://skin/backgrounds/SKINDEFAULT.jpg</texture> -->
 			<visible>![Skin.HasSetting(CustomBackground) + !IsEmpty(Skin.String(CustomImageBackgroundPath))]</visible>
 			<visible>![Skin.HasSetting(CustomBackground) + ![IsEmpty(Skin.String(CustomFolderBackgroundPath)) | Skin.HasSetting(ShowCustomBackgroundOnHomeOnly)]]</visible>
 			<include>BackgroundFade</include>
